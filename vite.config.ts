@@ -16,7 +16,8 @@ export default defineConfig({
       shared: [
         "react",
         "react-dom",
-        "react-router-dom"
+        "react-router-dom",
+        "react-redux"
       ],
     })
   ],

@@ -20,8 +20,8 @@ function DefaultComponent() {
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
-                <button onClick={() => navigate('/mfe-1/page2')}>nav to page 2 absolute</button>
-                <button onClick={() => navigate('./page2')}>nav to page 2 relative</button>
+                <button onClick={() => navigate('/mfe-1/redux')}>nav to page 2 absolute</button>
+                <button onClick={() => navigate('./redux')}>nav to page 2 relative</button>
                 <button onClick={() => navigate('/')}>nav to home</button>
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
