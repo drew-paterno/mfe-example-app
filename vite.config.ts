@@ -11,7 +11,7 @@ export default defineConfig({
       name: 'mfe1',
       filename: 'remoteEntry.js',
       exposes: {
-        './MFE1': resolve(__dirname, 'src/main.tsx')
+        './MFE1': resolve(__dirname, 'src/App.tsx')
       },
       shared: [
         "react",
